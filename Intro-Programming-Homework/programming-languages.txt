@@ -1,0 +1,17 @@
+Information about the most popular programming languages.
+
+
+1. Java
+C# and Java are actually quite similar, from an application developer's perspective. The major similarities of these languages will be discussed here. Both C# and Java have built-in garbage collection. What does this mean? Forgetaboutit! At least forget about calling delete. Because if you don't forget, the compiler will remind you! Or worse, Tony might make you a Soprano. Don't be a wise guy; neither language gives you the permission to whack any object that's become expendable. But you may be asked to call new fairly often, maybe more than you'd like.
+
+2. C
+Objective C is strict C (or C++ with .mm files), compiled straight to machine language coupled with a dynamic object system.  The dynamic object system is built into the syntax, but it is expressed essentially as additional code.  It would be possible to do almost everything in Objective C without the Smalltalk-like syntax by means of functional interfaces to a dynamic object library. In contrast, C# all compiles to the .NET runtime system, which also handles all the dynamic objects.  The .NET runtime seems specifically designed for C# (I've inhaled the spec) and contains things like accessibility levels, which are usually not handled at so low a level (c.f. Java). C# object syntax is based on a fairly obvious basis of C structs (similar to but different from C++).  Objective C syntax is modeled after Smalltalk.  Which is preferable is a matter of taste.
+
+3. C++
+The biggest differences are between C# and the other two, in my opinion, as although C++ and C are totally 'unrelated' they share some traits and each can be written inline with one another, compiling succesfully (however bad this is, it remains fact), they are in the same league at least. 
+
+4. Python
+Python is a dynamic language where Java and C# are really not. It is totally different than the other two. There are ways to accomplishing things in Python that do not translate well to the others and vice versa.
+
+5. PHP
+PHP is much easier to learn, partly because it requires no adherence to a particular programming style; .Net languages and Java tend to require object-oriented programming. PHP runs on virtually any operating system and HTTP server (which means that you can develop on WIndows/IIS and host on BSD/Apache); .Net runs only on Windows/IIS, while Java requires an application server (Tomcat, WebSphere, WebLogic, etc.), some of which are OS-dependent. Additionally, Java code may not always be portable between different application servers. PHP natively integrates with a large array of database engines, both open-source (MySQL, PostgreSQL, SQLite) and commercial (Oracle, MS SQL Server); .Net tends to work better with MS SQL Server and draw on ODBC for database connectivity with other engines, while Java relies on JDBC drivers for database connectivity.
